@@ -38,8 +38,8 @@ const projects = [
       "Deployed using Vercel",
     ],
     tech: ["React", "Bootstrap", "Framer Motion"],
-    live: "https://your-username.vercel.app",
-    github: "https://github.com/your-username/portfolio",
+    live: "https://portfolio-arun-bay.vercel.app/",
+    github: "https://github.com/Arunkumar-dev-creator/react-portfolio",
     image: "/images/i2.jpg",
   },
 ];
