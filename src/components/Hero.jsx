@@ -7,13 +7,16 @@ export default function Hero() {
   return (
     <section id="home" className="hero-section">
       {/* Hero Navbar */}
-      <Navbar expand="lg"  className="hero-navbar">
+      <Navbar expand="lg" className="hero-navbar">
         <Container>
           <Navbar.Brand href="#home" className="hero-logo">
             ARUNKUMAR S
           </Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="hero-navbar-nav" className="navbar-dark" />
+          <Navbar.Toggle
+            aria-controls="hero-navbar-nav"
+            className="navbar-dark"
+          />
           <Navbar.Collapse id="hero-navbar-nav">
             <Nav className="ms-auto hero-nav">
               <Nav.Link href="#home">HOME</Nav.Link>
@@ -39,7 +42,7 @@ export default function Hero() {
           transition={{ duration: 0.9, ease: "easeOut" }}
         >
           <motion.img
-            src="/public/images/i2.jpg"
+            src="/images/i2.jpg"
             alt="Arun"
             className="hero-avatar"
             initial={{ scale: 0.8, opacity: 0 }}
@@ -58,7 +61,8 @@ export default function Hero() {
             </p>
 
             <p className="opacity-75 h6">
-              React.js • JavaScript (ES6+) • HTML5 • CSS3 • Bootstrap • Responsive Web Design
+              React.js • JavaScript (ES6+) • HTML5 • CSS3 • Bootstrap •
+              Responsive Web Design
             </p>
 
             <div className="hero-actions mt-3">
