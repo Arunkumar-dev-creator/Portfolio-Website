@@ -47,7 +47,8 @@ const projects = [
 export default function ProjectsAlt() {
   return (
     <section id="projects" className="py-5 projects-alt">
-      <Container><p className="projects-kicker text-muted h6 mb-4 ">PROJECTS</p>
+      <Container>
+        <p className="projects-kicker text-muted h6 mb-4 ">PROJECTS</p>
         {/* Header */}
         <Row className="mb-5 justify-content-center text-center">
           <Col md={8}>
@@ -57,7 +58,6 @@ export default function ProjectsAlt() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              
               <h3 className="fw-bold mb-4 rg ">
                 PROFESSIONAL PROJECT EXPERIENCE
               </h3>
@@ -101,10 +101,21 @@ export default function ProjectsAlt() {
                   </div>
 
                   <div className="d-flex gap-2">
-                    <Button size="sm" className="live-btn fw-bold"  variant="outline-success" href={p.live} target="_blank">
+                    <Button
+                      size="sm"
+                      className="live-btn fw-bold"
+                      variant="outline-success"
+                      href={p.live}
+                      target="_blank"
+                    >
                       Live Demo
                     </Button>
-                    <Button size="sm" variant="outline-light" href={p.github} target="_blank">
+                    <Button
+                      size="sm"
+                      variant="outline-light"
+                      href={p.github}
+                      target="_blank"
+                    >
                       GitHub
                     </Button>
                   </div>

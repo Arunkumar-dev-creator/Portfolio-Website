@@ -63,7 +63,7 @@ export default function Footer() {
             <Col md={6} className="text-center text-md-end">
               <div className="footer-social">
                 <a
-                  href="https://github.com/your-username"
+                  href="https://github.com/Arunkumar-dev-creator"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -82,7 +82,7 @@ export default function Footer() {
                 <a href="#">
                   <Instagram />
                 </a>
-                <a href="mailto:arunkumar.dev@gmail.com">
+                <a href="mailto:akinfotech63@gmail.com">
                   <EnvelopeFill />
                 </a>
               </div>
